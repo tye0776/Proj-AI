@@ -198,6 +198,7 @@ Provide concise, actionable business advice based on this data. YOUR ABSOLUTE PR
             <button
               type="button"
               onClick={() => {
+                setApiKey('demo-mode');
                 saveApiKey('demo-mode');
                 setIsKeySet(true);
                 setError('');
